@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F15293E-573C-4554-B180-DF52B5DA4F91}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAO</RootNamespace>
+    <AssemblyName>DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ban.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BanDAO.cs" />
+    <Compile Include="ChiTietHoaDon.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietHoaDonDAO.cs" />
+    <Compile Include="ChucVu.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="chucvuDAO.cs" />
+    <Compile Include="DangNhapDAO.cs" />
+    <Compile Include="DanhMuc.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DanhMucDAO.cs" />
+    <Compile Include="DataProviders.cs" />
+    <Compile Include="DBModelHKT.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBModelHKT.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModelHKT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModelHKT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBModelHKT.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDon.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonDAO.cs" />
+    <Compile Include="KhuVuc.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhuVucDAO.cs" />
+    <Compile Include="LoaiTK.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiTKDAO.cs" />
+    <Compile Include="NhanVien.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SanPham.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SanPhamDAO.cs" />
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoan.cs">
+      <DependentUpon>DBModelHKT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoanDAO.cs" />
+    <Compile Include="NhanVienDAO.cs" />
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{6a034ae4-1ee7-4433-b7ab-a28ac3109af5}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="DBModelHKT.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DBModelHKT.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="DBModelHKT.edmx.diagram">
+      <DependentUpon>DBModelHKT.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBModelHKT.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DBModelHKT.edmx</DependentUpon>
+      <LastGenOutput>DBModelHKT.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DBModelHKT.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DBModelHKT.edmx</DependentUpon>
+      <LastGenOutput>DBModelHKT.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

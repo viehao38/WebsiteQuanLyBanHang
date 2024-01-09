@@ -1,0 +1,14 @@
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\bin\Debug\DAO.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\bin\Debug\DAO.pdb
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\bin\Debug\DTO.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\bin\Debug\DTO.pdb
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\obj\Debug\DAO.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\obj\Debug\DAO.pdb
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\bin\Debug\DAO.dll.config
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\bin\Debug\EntityFramework.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\bin\Debug\EntityFramework.SqlServer.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\bin\Debug\EntityFramework.xml
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\DAO\bin\Debug\EntityFramework.SqlServer.xml

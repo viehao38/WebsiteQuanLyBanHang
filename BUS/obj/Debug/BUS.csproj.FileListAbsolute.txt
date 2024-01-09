@@ -1,0 +1,14 @@
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\bin\Debug\BUS.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\bin\Debug\BUS.pdb
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\bin\Debug\DAO.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\bin\Debug\DTO.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\bin\Debug\DAO.pdb
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\bin\Debug\DTO.pdb
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\obj\Debug\BUS.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\obj\Debug\BUS.pdb
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\bin\Debug\EntityFramework.dll
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\bin\Debug\DAO.dll.config
+D:\CDTH21D_DD\LT_Windows\QuanLyCuaHangTraSuaHKT\BUS\bin\Debug\EntityFramework.xml
